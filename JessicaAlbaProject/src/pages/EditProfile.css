@@ -1,0 +1,42 @@
+.edit-profile {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .profile-pic img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+  
+  h1, h2 {
+    margin: 10px 0;
+  }
+  
+  .user-details {
+    display: inline-block;
+    text-align: left;
+    margin-top: 20px;
+  }
+  
+  .detail-item {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    min-width: 400px;
+  }
+  
+  .label {
+    font-weight: bold;
+  }
+  
+  .value {
+    margin-left: 10px;
+    margin-right: 10px;
+    min-width: none;
+    min-width: 300px;
+  }
+  
+  .edit-icon {
+    cursor: pointer;
+  }

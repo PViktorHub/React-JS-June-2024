@@ -1,0 +1,27 @@
+.navbar {
+    display: flex;
+    background-color: #333;
+  }
+  
+  .navbar a {
+    display: flex;
+    flex-grow:1;
+    color: white;
+    padding: 1rem 0rem;
+    justify-items: center;
+    justify-content: space-around;
+    text-decoration: none;
+     
+  }
+  
+  .navbar a.active {
+    background-color: #555;
+  }
+
+  .navbar a:hover {
+    background-color: #3F3F3F;
+  }
+
+  .navbar a.active:hover {
+    background-color: #5E5E5E;
+  }

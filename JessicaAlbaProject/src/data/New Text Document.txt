@@ -1,0 +1,8 @@
+{
+  "username": "Jessica Alba",
+  "email": "jessica.alba@gmail.com",
+  "address": "123 Main St",
+  "nickname": "jessica.alba",
+  "dob": "1990-01-01",
+  "profilePic": "pictures/jessica-alba.png"
+}
