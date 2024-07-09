@@ -1,9 +1,6 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 import "./styles.css";
-
+import './App.css'
 const images = [
   "https://images.pexels.com/photos/3836292/pexels-photo-3836292.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
   "https://images.pexels.com/photos/2792157/pexels-photo-2792157.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
@@ -35,14 +32,13 @@ return (
       <div className="right-arrow" onClick={nextSlide}>
         ⮕
       </div>
-      {images.map(
-        (image, index) =>
-          current === index && (
-            <div key={image} className="slide">
-              <img src={image} alt="images" />
-            </div>
-          )
-      )}
+      {
+        (
+          <div key={images[current]} className="slide">
+            <img src={images[current]} alt="images" />
+          </div>
+        )
+      }
     </div>
   </div>
 );
