@@ -1,0 +1,26 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 1rem;
+}
+
+.signup-card {
+  background-color: #1a1a1a; 
+  color: #fff; 
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Світла тема */
+@media (prefers-color-scheme: light) {
+  .signup-card {
+    background-color: #f9f9f9;
+    color: #213547;
+    min-width: 30rem;
+  }
+}
