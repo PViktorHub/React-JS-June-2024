@@ -1,0 +1,16 @@
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "allowImportingTsExtensions": false,  
+    "noEmit": false,
+    "outDir": "./dist",
+    "module": "ES2022",
+    "target": "ES2022",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "Node",
+    "strict": true,
+    "jsx": "react-jsx"
+  },
+  "include": ["server.ts", "src"]
+}
