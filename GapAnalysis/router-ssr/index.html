@@ -6,15 +6,8 @@
     <title>SSR React Router 6 + TypeScript</title>
   </head>
   <body>
-    <!-- Тут сервер підставляє HTML з renderToString -->
     <div id="root">__APP_HTML__</div>
-
-    <!-- Зберігаємо поточний шлях для клієнтської гідрації -->
-    <script>
-      window.__SSR_PATH__ = "__REQUEST_PATH__";
-    </script>
-
-    <!-- Підключення клієнтського бандлу для hydration -->
+    <script>window.__SSR_PATH__ = "__REQUEST_PATH__";</script>
     <script type="module" src="/client.js"></script>
   </body>
 </html>

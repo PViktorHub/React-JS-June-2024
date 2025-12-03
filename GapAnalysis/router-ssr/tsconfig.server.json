@@ -1,7 +1,7 @@
 {
   "extends": "./tsconfig.app.json",
   "compilerOptions": {
-    "allowImportingTsExtensions": false,  
+    "allowImportingTsExtensions": false,
     "noEmit": false,
     "outDir": "./dist",
     "module": "ES2022",
